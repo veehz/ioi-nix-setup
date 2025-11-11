@@ -55,10 +55,12 @@
   "C_Cpp_Runner.showCompilationTime": false,
   "C_Cpp_Runner.useLinkTimeOptimization": false,
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
-  // Hide to not confuse beginners
+  // To not confuse beginners:
   "files.exclude": {
     ".vscode/": true,
     ".idx/": true,
     ".gitignore": true,
-  }
+  },
+  "git.enabled": false,
+  "git.decorations.enabled": false
 }
