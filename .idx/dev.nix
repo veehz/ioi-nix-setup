@@ -5,20 +5,22 @@
   channel = "stable-25.05"; # or "unstable"
   # Use https://search.nixos.org/packages to find packages
   packages = with pkgs; [
-    # Followed Software List in: https://ioi2023.hu/contest-environment/index.html
+    # Adapted from Software List in: https://ioi2025.bo/competition-equipment.html
     ## Compiler ##
-    gcc11
+    gcc13
     ## Text Editors (You are probably not using them here) ##
-    # joe
+    joe
     nano
     vim
+    neovim
+    emacs
     # neovim
     ## Debuggers ##
     ddd
     gdb
     valgrind
     ## Interpreters ##
-    python310
+    python312
     ruby
     ### For Extension ##
     clang-tools

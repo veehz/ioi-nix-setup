@@ -45,3 +45,7 @@ To input from a file named `input.txt` **and** output to a file named `output.tx
 ```bash
 ./a.out < input.txt > output.txt
 ```
+
+## C++ Reference
+
+See [cppreference.com](https://en.cppreference.com).

@@ -36,3 +36,7 @@ To input from a file named `input.txt` **and** output to a file named `output.tx
 ```bash
 python a.py < input.txt > output.txt
 ```
+
+## Python Reference
+
+See [docs.python.org](https://docs.python.org/3.12/)

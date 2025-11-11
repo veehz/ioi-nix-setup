@@ -10,5 +10,9 @@ It may take some time for it to build and load.
 
 After entering, try it out! Go to your favourite language's guide:
 
-1. [C++](/guides/cpp.md)
-2. [Python](/guides/python.md)
+1. [C++](/guides/cpp.md) <- click
+2. [Python](/guides/python.md) <- click
+
+### For Advanced Users (Can Skip)
+
+We have hidden some files in the Explorer tab to not overwhelm beginners. To adjust the hidden files run `Ctrl + P` and open `settings.json`.
