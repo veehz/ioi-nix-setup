@@ -5,6 +5,7 @@
   channel = "stable-25.05"; # or "unstable"
   # Use https://search.nixos.org/packages to find packages
   packages = with pkgs; [
+    # Followed Software List in: https://ioi2023.hu/contest-environment/index.html
     ## Compiler ##
     gcc11
     ## Text Editors (You are probably not using them here) ##
@@ -29,6 +30,7 @@
     extensions = [
       # Alternative to official one
       "llvm-vs-code-extensions.vscode-clangd"
+      "ms-python.python"
       # "franneck94.vscode-c-cpp-dev-extension-pack"
     ];
     workspace = {

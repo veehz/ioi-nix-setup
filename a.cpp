@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+/* Example FizzBuzz Code */
 int main() {
   int n;
 
